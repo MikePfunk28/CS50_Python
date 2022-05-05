@@ -7,9 +7,11 @@ def main():
 
 # is_even(n) takes user input x as it takes n, above we pass x into is_even(x)
 def is_even(n):
-    if n % 2 == 0:
-        return True
-    else:
-        return False
-        
+
+# return True if n % 2 == 0 else False
+# if youe boolean expression itself has a value of True or False
+# then why ask a question, why ask if why say else
+# just return the True value.
+    return n % 2 == 0
+
 main()
