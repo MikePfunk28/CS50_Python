@@ -16,10 +16,10 @@ def print_row(width):
 def print_square(size):
     
     # For each row in square
-    for i in range(size):
+    for _ in range(size):
         
         # For each column or brick in square
-        for j in range(size):
+        for _ in range(size):
         
             # Print brick
             print("#", end="")
