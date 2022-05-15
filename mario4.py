@@ -9,7 +9,7 @@ def print_square(size):
         print_row(size)
 
 # create function to print row of # which # is width or size from square function or n from main to square
-# or Abstraction, referring to one by the other
+# or Abstraction, referring to one by using its own defintion you create as a function
 def print_row(width):
     print("#" * width)
 
